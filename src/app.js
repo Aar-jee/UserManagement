@@ -119,7 +119,7 @@ class App extends Component {
             )} />
             <Route exact={true} path='/details' render={() => (
               <div className="App3">
-                <Details/>
+                <Details name={"Max"}/>
               </div>
             )} />
            
